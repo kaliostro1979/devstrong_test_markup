@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Panton Black Caps';
+    src: url('../fonts/PantonDemo-Black.woff2') format('woff2'), url('../fonts/PantonDemo-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton Light Caps';
+    src: url('../fonts/PantonDemo-Light.woff2') format('woff2'), url('../fonts/PantonDemo-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton Narrow Light Caps';
+    src: url('../fonts/PantonNarrowDemo-Light.woff2') format('woff2'), url('../fonts/PantonNarrowDemo-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton Narrow Black Caps';
+    src: url('../fonts/PantonNarrowDemo-Black.woff2') format('woff2'), url('../fonts/PantonNarrowDemo-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton Black Italic Caps';
+    src: url('../fonts/PantonDemo-BlackItalic.woff2') format('woff2'), url('../fonts/PantonDemo-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton Light Italic Caps';
+    src: url('../fonts/PantonDemo-LightItalic.woff2') format('woff2'), url('../fonts/PantonDemo-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton Narrow Black Italic Caps';
+    src: url('../fonts/PantonNarrowDemo-BlackItalic.woff2') format('woff2'), url('../fonts/PantonNarrowDemo-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton Narrow Light Italic Caps';
+    src: url('../fonts/PantonNarrowDemo-LightItalic.woff2') format('woff2'), url('../fonts/PantonNarrowDemo-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-Bold.woff2') format('woff2'), url('../fonts/Panton-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-BlackItalic.woff2') format('woff2'), url('../fonts/Panton-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-ExtraLight.woff2') format('woff2'), url('../fonts/Panton-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-Thin.woff2') format('woff2'), url('../fonts/Panton-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-ExtraLightItalic.woff2') format('woff2'), url('../fonts/Panton-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-ThinItalic.woff2') format('woff2'), url('../fonts/Panton-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-Light.woff2') format('woff2'), url('../fonts/Panton-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-Regular.woff') format('woff2'), url('../fonts/Panton-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-BoldItalic.woff2') format('woff2'), url('../fonts/Panton-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-Regular.woff2') format('woff2'), url('../fonts/Panton-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton Icons C Fill';
+    src: url('../fonts/PantonIconsCFill-Bold.woff2') format('woff2'), url('../fonts/PantonIconsCFill-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-ExtraBold.woff2') format('woff2'), url('../fonts/Panton-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton ExtraBlack';
+    src: url('../fonts/Panton-ExtraBlack.woff2') format('woff2'), url('../fonts/Panton-ExtraBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton ExtraBlack';
+    src: url('../fonts/Panton-ExtraBlackItalic.woff2') format('woff2'), url('../fonts/Panton-ExtraBlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-ExtraBoldItalic.woff2') format('woff2'), url('../fonts/Panton-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-Italic.woff2') format('woff2'), url('../fonts/Panton-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-Black.woff2') format('woff2'), url('../fonts/Panton-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-LightItalic.woff2') format('woff2'), url('../fonts/Panton-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-SemiBold.woff2') format('woff2'), url('../fonts/Panton-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-SemiBoldItalic.woff2') format('woff2'), url('../fonts/Panton-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-Regular.woff2') format('woff2'),
+    url('../fonts/Panton-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
