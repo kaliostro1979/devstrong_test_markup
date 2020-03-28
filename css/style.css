@@ -377,6 +377,10 @@ Top header
     font-size: 20px;
 }
 
+.main__items__carousel .owl-dots{
+    display: none;
+}
+
 .main__popular__item h5{
     font-size: 14px;
 }
@@ -442,6 +446,39 @@ Top header
 
 .arrows ul li:first-child{
     margin-right: 10px;
+}
+
+/*New items block*/
+
+.bestseller{
+    background: linear-gradient(180deg, rgba(0,134,192,1) 0%, rgba(62,196,242,1) 50%, rgba(9,143,200,1) 100%);
+    padding: 20px;
+    height: 450px;
+}
+
+.bestseller__title h3{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 33px;
+}
+
+/*.bestseller__desc{*/
+/*    width: 50%;*/
+/*}*/
+
+.bestseller__desc h4{
+    font-size: 22px;
+}
+
+.bestseller__img{
+    position: relative;
+}
+
+.bestseller__img img{
+    position: relative;
+    top: -64px;
+    left: -18px;
+    width: 144%!important;
 }
 
 

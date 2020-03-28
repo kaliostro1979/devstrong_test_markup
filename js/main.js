@@ -40,3 +40,13 @@
      autoplay: true
  });
 
+ $('.new__items').owlCarousel({
+     loop:true,
+     margin:20,
+     nav:true,
+     items: 4,
+     dots: true,
+     // autoWidth: true,
+     // autoplay: true
+ });
+
