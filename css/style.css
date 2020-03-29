@@ -20,6 +20,10 @@
 
  ***/
 
+body{
+    font-family: Panton;
+}
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -354,10 +358,11 @@ Top header
 
 /*Popular items block*/
 
-#spacial__offers__block{
-    padding-bottom: 100px;
+.spacial__offers__block{
+    padding-bottom: 50px;
     border-bottom: solid 1px #efefef;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
+    margin-top: 75px;
 }
 
 .popular__item__block > div{
@@ -451,9 +456,10 @@ Top header
 /*New items block*/
 
 .bestseller{
-    background: linear-gradient(180deg, rgba(0,134,192,1) 0%, rgba(62,196,242,1) 50%, rgba(9,143,200,1) 100%);
-    padding: 20px;
-    height: 450px;
+    padding: 52px 38px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .bestseller__title h3{
@@ -462,23 +468,338 @@ Top header
     font-size: 33px;
 }
 
-/*.bestseller__desc{*/
-/*    width: 50%;*/
-/*}*/
 
 .bestseller__desc h4{
     font-size: 22px;
+    color: #4cd2fe;
+    font-family: Panton;
 }
 
 .bestseller__img{
     position: relative;
+    height: 100%;
 }
 
 .bestseller__img img{
     position: relative;
-    top: -64px;
-    left: -18px;
-    width: 144%!important;
+    top: -16px;
+    left: 18px;
+    transform: scale(1.4);
+}
+
+.bestseller__price h2{
+    font-size: 31px;
+    color: #ffffff;
+    font-family: Panton;
+    padding-top: 5em;
+    padding-bottom: 1.7em;
+}
+
+.hit__item{
+    padding: 20px;
+    -webkit-box-shadow: 2px 51px 34px -16px rgba(0,0,0,0.47);
+    -moz-box-shadow: 2px 51px 34px -16px rgba(0,0,0,0.47);
+    box-shadow: -3px 12px 25px -16px rgba(0,0,0,0.47);
+    border: solid 1px #efefef;
+}
+
+.hit__item:hover{
+    -webkit-box-shadow: 3px 21px 39px -15px rgba(0,0,0,0.33);
+    -moz-box-shadow: 3px 21px 39px -15px rgba(0,0,0,0.33);
+    box-shadow: 3px 21px 39px -15px rgba(0,0,0,0.33);
+}
+
+.hit__item_img{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hit__item_wish{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hit__item_rate ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    margin-top: 35px;
+}
+
+.hit__item_rate ul li{
+    position: relative;
+    margin-right: 25px;
+}
+
+.hit__item_rate ul li:last-child{
+    margin-right: 0;
+}
+
+.hit__item_rate ul li i{
+    position: absolute;
+    color: #ffb400;
+    top: 0;
+}
+
+.hit__item_rate ul li .fas{
+    display: none;
+}
+
+.hit__tem_like i{
+    padding-top: 35px;
+    color: #009ee2;
+    position: absolute;
+    right: 30px;
+}
+
+.hit__tem_like .fas{
+    display: none;
+}
+
+.hit__item_title h3{
+    font-size: 24px;
+    font-family: Panton;
 }
 
 
+
+.hit__item_btn button{
+    width: 99%;
+    padding: 10px 0px;
+    border-radius: 6px;
+    margin-top: 4px;
+    background-color: #009ee2;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Panton;
+    font-weight: 700;
+}
+
+.hit__item_label{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(51,185,234,1) 0%, rgba(9,143,199,1) 100%);
+    left: -5px;
+    top: 26px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.hit__item_label p{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Panton;
+    font-size: 12px;
+}
+
+.hit__tem_sell__label{
+    width: 87px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #00963f;
+    position: absolute;
+    top: -20px;
+    left: -5px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Panton;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.hit__item_price h3{
+    font-weight: 700;
+    font-family: Panton;
+    font-size: 22px;
+}
+
+.hit__item_old_price{
+    text-decoration: line-through;
+}
+
+.hit__item_old_price h4{
+    font-size: 18px;
+    color: #6d6d6d;
+}
+
+/*New Items Section*/
+
+#new__items{
+    margin-top: 150px;
+}
+
+.hit__item_prices{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hit__item_comment{
+    height: 30px;
+}
+
+.hit__item_comment h5{
+    font-size: 16px;
+    margin: 0;
+}
+
+/*Latest News Block*/
+
+.latest__news_pic{
+    height: 210px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.latest__news__content{
+    padding: 25px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 2px 51px 34px -16px rgba(0,0,0,0.47);
+    -moz-box-shadow: 2px 51px 34px -16px rgba(0,0,0,0.47);
+    box-shadow: -3px 12px 25px -16px rgba(0,0,0,0.47);
+}
+
+.latest__news__title h3{
+    text-transform: uppercase;
+    font-family: Panton;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.latest__news__text{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 110px;
+    max-height: 110px;
+}
+
+.latest__news__text p{
+    font-size: 14px;
+}
+
+.latest__news__more a{
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #009ee2;
+    font-weight: 700;
+}
+
+#latest__news_main{
+    position: relative;
+}
+
+#background {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 60%;
+    background-color: #efefef;
+    top: 291px;
+}
+
+.latest__news_date_label{
+    width: 100px;
+    height: 36px;
+    background-color: #1d1e1e;
+    color: #ffffff;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.subscribe__title{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.subscribe__title h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subscribe__form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.subscribe__form input {
+    height: 60px;
+    text-indent: 3%;
+    font-weight: bold;
+    width: 100%;
+}
+
+.subscribe__form input::placeholder{
+    color: #6f6f6f;
+}
+
+.subscribe__form button {
+    background: linear-gradient(90deg, rgba(51,185,233,1) 0%, rgba(29,163,216,1) 50%, rgba(8,142,199,1) 100%);
+    padding: 0 5%;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 260px;
+    font-weight: 700;
+}
+
+#latest__news_main .latest__news .owl-dot, .new__items_section  .new__items .owl-dot,
+.new__items_section  .hit__items .owl-dot{
+    display: none;
+}
+
+
+/*Sales Block*/
+
+.sales__block{
+    background: linear-gradient(90deg, rgba(51,185,233,1) 0%, rgba(29,163,216,1) 50%, rgba(8,142,199,1) 100%);
+    position: relative;
+    margin-top: 150px;
+    padding: 45px;
+    height: 285px;
+}
+
+.sales__left{
+    display: flex;
+}
+
+.sales__left h3{
+    font-size: 48px;
+    white-space: pre-line;
+    margin: 0;
+}
+
+.sales__pic img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(1.1);
+}
+
+.sales__btn{
+    top: -70px;
+}
+
+.sales__percent span{
+    font-size: 87px;
+    font-weight: 900;
+    color: #54bde4;
+    padding-left: 100px;
+}
