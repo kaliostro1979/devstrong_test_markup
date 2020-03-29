@@ -125,3 +125,13 @@ $('#latest__news__next').on('click', function () {
 $('#latest__news__prev').click(function () {
     $('.latest__news').trigger('prev.owl.carousel');
 });
+
+//Rating
+
+// $('.hit__item_rate > ul > li >a').on('click', function () {
+//   $(this).prevAll('.hit__item_rate ul li .fas')
+// });
+
+// $('.hit__tem_like').on('click', function () {
+//     $(this).
+// }).

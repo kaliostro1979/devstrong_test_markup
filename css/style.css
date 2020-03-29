@@ -548,6 +548,10 @@ Top header
     display: none;
 }
 
+.hit__tem_like{
+    cursor: pointer;
+}
+
 .hit__tem_like i{
     padding-top: 35px;
     color: #009ee2;
@@ -771,7 +775,7 @@ Top header
 .sales__block{
     background: linear-gradient(90deg, rgba(51,185,233,1) 0%, rgba(29,163,216,1) 50%, rgba(8,142,199,1) 100%);
     position: relative;
-    margin-top: 150px;
+    margin-top: 60px;
     padding: 45px;
     height: 285px;
 }
@@ -781,16 +785,25 @@ Top header
 }
 
 .sales__left h3{
-    font-size: 48px;
+    font-size: 45px;
     white-space: pre-line;
     margin: 0;
+    color: #ffffff;
+}
+
+.sales__left h5{
+    position: absolute;
+    right: 34%;
+    top: 60px;
+    font-size: 22px;
+    color: #5dd5fe;
 }
 
 .sales__pic img{
     position: absolute;
-    top: 0;
-    right: 0;
-    transform: scale(1.1);
+    top: -20px;
+    right: -90px;
+    transform: scale(1);
 }
 
 .sales__btn{
@@ -802,4 +815,103 @@ Top header
     font-weight: 900;
     color: #54bde4;
     padding-left: 100px;
+}
+
+/*About Us block*/
+
+.about__us_main{
+    margin: 100px 0;
+}
+
+.about__us_text{
+    margin-top: 40px;
+}
+
+.about__us_text p{
+    font-size: 14px;
+}
+
+/*Footer*/
+
+#footer__main{
+    background-color: #1d1e1e;
+    padding: 65px 0;
+}
+
+#footer__mini{
+    background-color: #1d1e1e;
+}
+
+.footer__logo{
+    width: 260px;
+}
+
+.footer__logo p{
+    color: #8e8f8f;
+}
+
+.footer__logo ul{
+    list-style: none;
+    margin-top: 60px;
+}
+
+.footer__logo ul li{
+    margin-bottom: 15px;
+}
+
+.footer__logo ul li:last-child{
+    margin-bottom: 0;
+}
+
+.footer__logo ul li a, .footer__list ul .footer__email{
+    color: #009be1;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer__list_title{
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.footer__list_title h5{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer__list ul{
+    list-style: none;
+}
+
+.footer__list ul .address, .footer__list ul .footer__email{
+    text-transform: none;
+}
+
+.footer__list ul li{
+    color: #8c8d8d;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer__container{
+    padding-bottom: 60px;
+    border-bottom: solid 1px #343535;
+}
+
+#footer__mini{
+    padding-bottom: 50px;
+}
+
+.footer__copyright{
+    color: #8c8d8d;
+    font-size: 12px;
+}
+
+.footer__social ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
