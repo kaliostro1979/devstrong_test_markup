@@ -328,7 +328,7 @@ Top header
 }
 
 .owl-carousel .owl-stage-outer{
-    padding: 31px 0;
+    padding: 40px 0;
 }
 
 .owl-dots{
@@ -455,6 +455,12 @@ Top header
     -webkit-box-shadow: 2px 51px 34px -16px rgba(0,0,0,0.47);
     -moz-box-shadow: 2px 51px 34px -16px rgba(0,0,0,0.47);
     box-shadow: -3px 12px 25px -16px rgba(0,0,0,0.47);
+}
+
+.bestseller:hover{
+    -webkit-box-shadow: 3px 21px 39px -15px rgba(0,0,0,0.33);
+    -moz-box-shadow: 3px 21px 39px -15px rgba(0,0,0,0.33);
+    box-shadow: 3px 21px 39px -15px rgba(0,0,0,0.33);
 }
 
 .bestseller__title h3{
