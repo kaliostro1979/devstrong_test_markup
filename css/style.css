@@ -474,6 +474,11 @@ Top header
     height: 100%;
 }
 
+.bestseller__price{
+    position: relative;
+    top: 44px;
+}
+
 .bestseller__img img{
     position: relative;
     top: -16px;
