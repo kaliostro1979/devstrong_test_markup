@@ -21,7 +21,7 @@ $('.drop__down').on('click', function () {
 
 //Owl Carousel
 
-$('.owl-carousel').owlCarousel({
+$('.main__carousel').owlCarousel({
     loop: true,
     margin: 10,
     nav: true,
@@ -44,7 +44,7 @@ $('.popular__carousel').owlCarousel({
 //Hit items carousel
 
 let hitItemOwl = $('.hit__items').owlCarousel({
-    items: 4,
+    items: 1,
     margin: 20,
     nav: true,
 });
@@ -73,7 +73,7 @@ $('#hit__items__prev').click(function () {
 //New items carousel
 
 let newItemOwl = $('.new__items').owlCarousel({
-    items: 4,
+    items: 1,
     margin: 20,
     nav: true,
 });
@@ -101,9 +101,10 @@ $('#new__items__prev').click(function () {
 //Latest News Carousel
 
 let latestNewsOwl = $('.latest__news').owlCarousel({
-    items: 4,
+    items: 1,
     margin: 20,
     nav: true,
+    autoplay: false,
 });
 
 latestNewsOwl.on('changed.owl.carousel', function (event) {
@@ -126,7 +127,9 @@ $('#latest__news__prev').click(function () {
     $('.latest__news').trigger('prev.owl.carousel');
 });
 
-//Rating
+
+
+//Rating stars
 
 $(document).ready(function(){
     $('.stars li').on('mouseover', function(){
@@ -160,6 +163,8 @@ $(document).ready(function(){
         }
     });
 });
+
+//Wish list heart
 
 $('.hit__tem_like').on('click', function () {
     $(this).find('.fas').addClass('liked')

@@ -140,7 +140,6 @@ Top header
 .main_nav nav a, .drop__down a{
     text-transform: uppercase;
     font-weight: 700;
-    font-family: "Panton";
     font-size: 14px;
 }
 
@@ -257,7 +256,6 @@ Top header
 .drop__down_inner ul li a{
     font-weight: 700;
     font-size: 15px;
-    font-family: "Panton";
 }
 
 .drop__down_inner ul li:before{
@@ -293,7 +291,6 @@ Top header
     text-transform: uppercase;
     font-weight: 700;
     color: #ffffff;
-    font-family: Panton;
 }
 
 .carousel__item h3{
@@ -303,7 +300,6 @@ Top header
 
 .carousel__item p{
     font-size: 3rem;
-    font-family: Panton;
     color: #ffffff;
 }
 
@@ -315,7 +311,6 @@ Top header
     color: #ffffff;
     text-transform: uppercase;
     font-size: 24px;
-    font-family: Panton;
 }
 
 .carousel__item_img{
@@ -377,7 +372,6 @@ Top header
 .main__popular__item h4, .main__popular__item h5{
     color: #ffffff;
     text-transform: uppercase;
-    font-family: Panton;
     font-weight: 700;
     font-size: 20px;
 }
@@ -426,7 +420,6 @@ Top header
 .hits__title__block h2{
     text-transform: uppercase;
     font-weight: 900;
-    font-family: Panton;
     font-size: 36px;
     margin-right: 30px;
 }
@@ -472,7 +465,6 @@ Top header
 .bestseller__desc h4{
     font-size: 22px;
     color: #4cd2fe;
-    font-family: Panton;
 }
 
 .bestseller__img{
@@ -490,7 +482,6 @@ Top header
 .bestseller__price h2{
     font-size: 31px;
     color: #ffffff;
-    font-family: Panton;
     padding-top: 5em;
     padding-bottom: 1.7em;
 }
@@ -573,7 +564,7 @@ Top header
 }
 
 .hit__tem_like i{
-    padding-top: 35px;
+    padding-top: 28px;
     color: #009ee2;
     position: absolute;
     right: 30px;
@@ -589,7 +580,6 @@ Top header
 
 .hit__item_title h3{
     font-size: 24px;
-    font-family: Panton;
 }
 
 
@@ -602,7 +592,6 @@ Top header
     background-color: #009ee2;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: Panton;
     font-weight: 700;
 }
 
@@ -623,7 +612,6 @@ Top header
     margin: 0;
     text-transform: uppercase;
     font-weight: 700;
-    font-family: Panton;
     font-size: 12px;
 }
 
@@ -639,14 +627,12 @@ Top header
     line-height: 40px;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: Panton;
     font-size: 14px;
     font-weight: 700;
 }
 
 .hit__item_price h3{
     font-weight: 700;
-    font-family: Panton;
     font-size: 22px;
 }
 
@@ -699,7 +685,6 @@ Top header
 
 .latest__news__title h3{
     text-transform: uppercase;
-    font-family: Panton;
     font-weight: 900;
     font-size: 16px;
 }
@@ -946,7 +931,7 @@ Top header
 .rating-stars ul {
     list-style: none;
     display: flex;
-    margin: 35px 0;
+    margin: 29px 0;
 
     -moz-user-select:none;
     -webkit-user-select:none;
