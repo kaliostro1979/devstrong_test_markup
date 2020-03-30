@@ -787,6 +787,9 @@ Top header
     margin-top: 60px;
     padding: 45px;
     height: 285px;
+    -webkit-box-shadow: 2px 51px 34px -16px rgba(0,0,0,0.47);
+    -moz-box-shadow: 2px 51px 34px -16px rgba(0,0,0,0.47);
+    box-shadow: -3px 12px 25px -16px rgba(0,0,0,0.47);
 }
 
 .sales__left{
