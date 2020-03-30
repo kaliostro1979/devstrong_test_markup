@@ -448,10 +448,13 @@ Top header
 /*New items block*/
 
 .bestseller{
-    padding: 52px 38px;
+    padding: 33px 38px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 2px 51px 34px -16px rgba(0,0,0,0.47);
+    -moz-box-shadow: 2px 51px 34px -16px rgba(0,0,0,0.47);
+    box-shadow: -3px 12px 25px -16px rgba(0,0,0,0.47);
 }
 
 .bestseller__title h3{
